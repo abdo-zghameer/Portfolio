@@ -709,7 +709,7 @@ color: var(--other-color);
     }
 
     .main-content p {
-        font-size: 0.7rem; /* حجم أصغر */
+        font-size: 0.9rem; /* حجم أصغر */
         width: 95%; /* عرض أكثر مرونة */
         margin-bottom: 7px;
     }
