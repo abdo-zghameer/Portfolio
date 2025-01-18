@@ -621,7 +621,8 @@ color: var(--other-color);
         height: 70px;
     }
     .icon-names {
-        font-size: 0.7em;
+        font-size: 0.9em;
+        white-space: nowrap;
     }
 }
 .view-project-btn {
@@ -681,6 +682,14 @@ color: var(--other-color);
         margin: 3px; /* تقليل الهوامش */
         padding: 0; /* تقليل التباعد الداخلي */
         width: auto;
+    }
+}
+@media (max-width: 400px) {
+    .h-btn {
+        font-size: 14px; /* تقليل حجم الخط ليكون مناسبًا على الشاشات الصغيرة */
+        padding: 8px 18px; /* تقليل المسافات داخل الزرار */
+        width: auto; /* جعل العرض يتكيف مع النص */
+        white-space: nowrap;
     }
 }
 /* Media queries for smaller screens */
