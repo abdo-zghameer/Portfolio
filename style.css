@@ -623,6 +623,7 @@ color: var(--other-color);
     .icon-names {
         font-size: 0.9em;
         white-space: nowrap;
+        letter-spacing: 0.5px;
     }
 }
 .view-project-btn {
@@ -687,9 +688,10 @@ color: var(--other-color);
 @media (max-width: 400px) {
     .h-btn {
         font-size: 14px; /* تقليل حجم الخط ليكون مناسبًا على الشاشات الصغيرة */
-        padding: 8px 18px; /* تقليل المسافات داخل الزرار */
+        padding: 6px 12px; /* تقليل المسافات داخل الزرار */
         width: auto; /* جعل العرض يتكيف مع النص */
         white-space: nowrap;
+        max-width: 100%;
     }
 }
 /* Media queries for smaller screens */
