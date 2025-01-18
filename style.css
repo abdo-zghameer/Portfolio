@@ -614,14 +614,14 @@ color: var(--other-color);
 
 @media (max-width: 400px) {
     .skills-content {
-        grid-template-columns: 1fr; /* عمود واحد فقط */
+        grid-template-columns: repeat(3, 1fr); /* عمود واحد فقط */
     }
     .skills img {
-        width: 110px; /* تقليل الأعمدة إلى 2 */
-        height: 110px;
+        width: 70px; /* تقليل الأعمدة إلى 2 */
+        height: 70px;
     }
     .icon-names {
-        font-size: 1.1em;
+        font-size: 0.9em;
     }
 }
 .view-project-btn {
@@ -674,6 +674,11 @@ color: var(--other-color);
         font-size: 18px; /* تقليل الحجم بشكل أكبر في الشاشات الصغيرة جدًا */
     }
 }
+@media (max-width: 400px) {
+    .logo {
+        font-size: 15px; /* تقليل الحجم بشكل أكبر في الشاشات الصغيرة جدًا */
+    }
+}
 /* Media queries for smaller screens */
 @media (max-width: 768px) {
     .main-content h4 {
@@ -690,13 +695,13 @@ color: var(--other-color);
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 400px) {
     .main-content h4 {
-        font-size: 1.3rem; /* حجم أصغر على الشاشات الصغيرة جدًا */
+        font-size: 1.2rem; /* حجم أصغر على الشاشات الصغيرة جدًا */
     }
 
     .main-content h1 {
-        font-size: 1.8rem; /* حجم أصغر */
+        font-size: 1.5rem; /* حجم أصغر */
     }
 
     .main-content p {
